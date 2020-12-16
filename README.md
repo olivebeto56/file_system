@@ -19,11 +19,14 @@ If you want to clean all the data run:
 
 ### Commands
 
-exit     -   exit                           ->    Close progam
-ls       -   ls                             ->    Print directories and files with their inode id
-pwd      -   pwd                            ->    Print current path
-mkdir    -   mkdir {dir_name}               ->    Create new directory
-mkfile   -   mkfile {file_name} {content}   ->    Create file
-openfile -   openfile {file_name}           ->    Open file
-rmfile   -   rmfile {file_name}             ->    Delete file
-cd       -   cd {dir_name}                  ->    Move between directories 
+| Command       | Parameters    | Description    |
+| ------------- | ------------- | ------------- |
+| exit  | exit  | Close progam  |
+| ls  | ls  | Print directories and files with their inode id  |
+| pwd  | pwd  | Print current path  |
+| mkdir  | mkdir {dir_name}  | Create new directory  |
+| mkfile  | mkfile {file_name} {content}  | Create file  |
+| openfile  | openfile {file_name}  | Open file  |
+| rmfile  | rmfile {file_name}  | Delete file  |
+| cd  | cd {dir_name}  | Move between directories  |
+| help  | help  | Print help  |
